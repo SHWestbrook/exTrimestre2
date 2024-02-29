@@ -1,0 +1,45 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Estilo para la lista horizontal */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        display: block;
+        color: #fcfcfc;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover {
+        background-color: #ddd;
+    }
+
+    /* Opcional: Añadir estilos para resaltar el elemento activo */
+    nav ul li.active a {
+        background-color: #333;
+        color: #fff;
+    }
+</style>
+<nav>
+    <ul class="horizontal-list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/crud">Crud</a></li>
+        <li><a href="/registro">Registro</a></li>
+    </ul>
+</nav>
